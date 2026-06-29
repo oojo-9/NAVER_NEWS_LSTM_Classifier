@@ -2,20 +2,18 @@
  - NAVER NEWS : IT , SPORTS , ENTERTAINMENT
  - 3가지 카테고리 뉴스를 기반으로 뉴스 제목 입력 시 카테고리 분류 
 
-   - 사용 URL : 
-[IT]<br>
+   - 사용 URL : <br>
+- [IT]<br>
 https://news.naver.com/breakingnews/section/105/230<br>
 https://news.naver.com/breakingnews/section/105/226<br>
 https://news.naver.com/breakingnews/section/105/227<br>
 https://news.naver.com/breakingnews/section/105/228<br>
 https://news.naver.com/breakingnews/section/105/229<br>
-<br>
-   - [SPORTS]<br>
-   https://m.sports.naver.com/general/news<br>
-   https://m.sports.naver.com/kfootball/news<br>
-   <br>
-   - [ENTERTAINMENT]<br>
-   https://m.entertain.naver.com/now<br>
+- [SPORTS]<br>
+  https://m.sports.naver.com/general/news<br>
+  https://m.sports.naver.com/kfootball/news<br>
+- [ENTERTAINMENT]<br>
+  https://m.entertain.naver.com/now<br>
 
 
 
