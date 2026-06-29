@@ -5,20 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73655702-761b-4031-800d-250a85ff83d6" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/NAVER_NEWS_LSTM_Classifier.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/preprocess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/실습문제.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/visualize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/NAVER_NEWS_LSTM_Classifier.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NAVER_NEWS_LSTM_Classifier.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,67 +33,79 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "oojo-9"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/oojo-9/NAVER_NEWS_LSTM_Classifier.git",
+    "accountId": "ff0ba2c2-14e7-43cf-aba6-cd97520856b3"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000144084449421" />
-      <entry key="S2" value="1.1809878751007277" />
-      <entry key="S5" value="1.7641174057248983" />
-      <entry key="S10" value="2.252457915146704" />
-      <entry key="S30" value="4.025887477982265" />
-      <entry key="S60" value="9.317664810349607" />
-      <entry key="M2" value="17.842883500952432" />
-      <entry key="M5" value="27.8128016692254" />
-      <entry key="M10" value="32.464845239393775" />
-      <entry key="M15" value="34.20399400985337" />
-      <entry key="M30" value="36.04695441790013" />
-      <entry key="H1" value="37.009309836439776" />
-      <entry key="H2" value="37.50106091214836" />
-      <entry key="H4" value="37.7496253497027" />
-      <entry key="D1" value="37.95814461782911" />
-      <entry key="W1" value="37.99401755988172" />
+      <entry key="MS100" value="1.0000000000000016" />
+      <entry key="MS500" value="1.0010968331891756" />
+      <entry key="S2" value="1.253153283505376" />
+      <entry key="S5" value="2.0316595805988857" />
+      <entry key="S10" value="3.025722252992246" />
+      <entry key="S30" value="6.148414111611686" />
+      <entry key="S60" value="10.993621529059462" />
+      <entry key="M2" value="18.21783813632114" />
+      <entry key="M5" value="29.512899969391665" />
+      <entry key="M10" value="37.40243839392122" />
+      <entry key="M15" value="41.91034249186805" />
+      <entry key="M30" value="63.61618516873428" />
+      <entry key="H1" value="141.78014467031454" />
+      <entry key="H2" value="269.5719961387673" />
+      <entry key="H4" value="390.22329145478386" />
+      <entry key="D1" value="541.3434479106937" />
+      <entry key="W1" value="573.4449571736662" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="S10" value="7.643875209646477E-171" />
+      <entry key="S30" value="1.969871571501886E-57" />
+      <entry key="S60" value="4.439827321355687E-29" />
+      <entry key="M2" value="6.786137066604324E-15" />
+      <entry key="M5" value="2.9422150147695506E-6" />
+      <entry key="M10" value="0.0049177670984247935" />
+      <entry key="M15" value="0.07858216721956177" />
+      <entry key="M30" value="1.4840225671743574" />
+      <entry key="H1" value="6.85711449699827" />
+      <entry key="H2" value="14.966330982443342" />
+      <entry key="H4" value="22.195297039445606" />
+      <entry key="D1" value="30.883617343703147" />
+      <entry key="W1" value="32.688861949087055" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9526379980439373" />
-      <entry key="MS500" value="0.9904839279968954" />
-      <entry key="S2" value="1.1773920840540808" />
-      <entry key="S5" value="1.7610847158557166" />
-      <entry key="S10" value="2.2502662670756366" />
-      <entry key="S30" value="4.024574377643087" />
-      <entry key="S60" value="9.316287293225658" />
-      <entry key="M2" value="17.841628058427364" />
-      <entry key="M5" value="27.812036530208037" />
-      <entry key="M10" value="32.46440150998101" />
-      <entry key="M15" value="34.203682961929275" />
-      <entry key="M30" value="36.04679082906194" />
-      <entry key="H1" value="37.00922593708641" />
-      <entry key="H2" value="37.50101842476559" />
-      <entry key="H4" value="37.749603970126124" />
-      <entry key="D1" value="37.95814103556845" />
-      <entry key="W1" value="37.994017047663306" />
+      <entry key="MS100" value="0.004710186826918399" />
+      <entry key="MS500" value="0.3435282628637311" />
+      <entry key="S2" value="1.0001707924071166" />
+      <entry key="S5" value="1.8800343676685638" />
+      <entry key="S10" value="2.911179772523725" />
+      <entry key="S30" value="6.082681894747183" />
+      <entry key="S60" value="10.951160253939989" />
+      <entry key="M2" value="18.19230310870532" />
+      <entry key="M5" value="29.50110708798547" />
+      <entry key="M10" value="37.40104795967936" />
+      <entry key="M15" value="41.98404988127008" />
+      <entry key="M30" value="65.09185660297018" />
+      <entry key="H1" value="148.62150180117888" />
+      <entry key="H2" value="284.5215849735461" />
+      <entry key="H4" value="412.40623940578735" />
+      <entry key="D1" value="572.2242068706013" />
+      <entry key="W1" value="606.1333869804666" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -110,12 +120,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.TEST.executor": "Run",
+    "Python.data.executor": "Run",
+    "Python.main.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -138,11 +151,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1782714124302</updated>
-      <workItem from="1782714125482" duration="1425000" />
+      <workItem from="1782714125482" duration="12177000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NAVER_NEWS_LSTM_Classifier$main.coverage" NAME="main 커버리지 결과" MODIFIED="1782726802418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NAVER_NEWS_LSTM_Classifier$TEST.coverage" NAME="TEST 커버리지 결과" MODIFIED="1782725210034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NAVER_NEWS_LSTM_Classifier$data.coverage" NAME="data 커버리지 결과" MODIFIED="1782723013271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
 </project>
