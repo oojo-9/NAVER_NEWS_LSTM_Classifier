@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="73655702-761b-4031-800d-250a85ff83d6" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/NAVER_NEWS_LSTM_Classifier.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/preprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/실습문제.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000144084449421" />
+      <entry key="S2" value="1.1809878751007277" />
+      <entry key="S5" value="1.7641174057248983" />
+      <entry key="S10" value="2.252457915146704" />
+      <entry key="S30" value="4.025887477982265" />
+      <entry key="S60" value="9.317664810349607" />
+      <entry key="M2" value="17.842883500952432" />
+      <entry key="M5" value="27.8128016692254" />
+      <entry key="M10" value="32.464845239393775" />
+      <entry key="M15" value="34.20399400985337" />
+      <entry key="M30" value="36.04695441790013" />
+      <entry key="H1" value="37.009309836439776" />
+      <entry key="H2" value="37.50106091214836" />
+      <entry key="H4" value="37.7496253497027" />
+      <entry key="D1" value="37.95814461782911" />
+      <entry key="W1" value="37.99401755988172" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9526379980439373" />
+      <entry key="MS500" value="0.9904839279968954" />
+      <entry key="S2" value="1.1773920840540808" />
+      <entry key="S5" value="1.7610847158557166" />
+      <entry key="S10" value="2.2502662670756366" />
+      <entry key="S30" value="4.024574377643087" />
+      <entry key="S60" value="9.316287293225658" />
+      <entry key="M2" value="17.841628058427364" />
+      <entry key="M5" value="27.812036530208037" />
+      <entry key="M10" value="32.46440150998101" />
+      <entry key="M15" value="34.203682961929275" />
+      <entry key="M30" value="36.04679082906194" />
+      <entry key="H1" value="37.00922593708641" />
+      <entry key="H2" value="37.50101842476559" />
+      <entry key="H4" value="37.749603970126124" />
+      <entry key="D1" value="37.95814103556845" />
+      <entry key="W1" value="37.994017047663306" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3Fnc9cajcJdNBu7qMEvH7TiMni9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="73655702-761b-4031-800d-250a85ff83d6" name="변경" comment="" />
+      <created>1782714124302</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782714124302</updated>
+      <workItem from="1782714125482" duration="1425000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
